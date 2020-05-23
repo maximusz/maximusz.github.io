@@ -16,6 +16,11 @@ body {
 
 .szurke{
     background-color: #cccccc;
+	border: 2px solid #333333;
+}
+
+h1,h3,h4,h5,h6 {
+	font-weight: bold;
 }
 
 .container {
@@ -37,6 +42,11 @@ body {
 	width: 200px;
 }
 
+.kupa {
+	width: 30px;
+	display: block;
+	float: left;
+}
 a:hover {
 	text-decoration: none;
 }
@@ -48,4 +58,21 @@ a:hover {
 
 .verscim {
 	text-align: center;
+}
+
+.hivatkozas a {
+	color: #3cb878;
+	text-decoration: underline;
+}
+
+.jobbkeret {
+	// border-right: 1px solid black;
+	text-align: center;
+}
+.teglalap {
+	padding: 15px;
+	border: 1px solid #333333;
+}
+.teglalap p {
+	text-indent: 40px;
 }
